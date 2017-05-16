@@ -3,11 +3,11 @@ RecyclerView,ListView分页显示解决方案
 
 
 
-##firstly##
+**firstly**
 
 use `com.aitangba.pagingview.core.PagingRecyclerView` in your xml.
 
-##secondly##
+**secondly**
 
 ```java
 mRecyclerView.setOnLoadMoreListener(new OnLoadMoreListener() {
@@ -19,7 +19,7 @@ mRecyclerView.setOnLoadMoreListener(new OnLoadMoreListener() {
         });
 ```
 
-##finally##
+**finally**
 
 ```java
 mAdapter.setData(mRecyclerView.checkPaging(getData(2)));
